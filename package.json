@@ -107,5 +107,11 @@
   },
   "optionalDependencies": {
     "bufferutil": "^4.0.8"
+  },
+  "netlify": {
+    "build": {
+      "publish": "dist",
+      "command": "npm run build"
+    }
   }
 }
